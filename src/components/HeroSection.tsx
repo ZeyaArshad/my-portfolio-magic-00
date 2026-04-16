@@ -31,10 +31,10 @@ const HeroSection = () => {
               <Phone size={20} />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors">
-              <Linkedin size={20} />
+              <ExternalLink size={20} />
             </a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors">
-              <Github size={20} />
+              <ExternalLink size={20} />
             </a>
           </div>
         </motion.div>
