@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
-import { Mail, Phone, Linkedin, Github } from "lucide-react";
+import { Mail, Phone, ExternalLink } from "lucide-react";
 
 const ContactSection = () => (
   <section id="contact" className="py-24">
