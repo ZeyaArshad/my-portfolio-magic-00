@@ -48,7 +48,7 @@ const AboutSection = () => (
             level: "Matriculation (10th)",
             school: "Mother's International Academy",
             board: "CBSE Board",
-            year: "2020",
+            year: "2019",
             score: "84%",
           },
         ].map((edu) => (
