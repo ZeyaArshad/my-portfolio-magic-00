@@ -31,7 +31,38 @@ const AboutSection = () => (
       </div>
 
       <motion.div
-        className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
+        className="mt-12 grid md:grid-cols-2 gap-6 max-w-3xl mx-auto"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+      >
+        {[
+          {
+            level: "Intermediate (12th)",
+            school: "S S Inter College",
+            board: "UP Board",
+            year: "2022",
+            score: "65%",
+          },
+          {
+            level: "Matriculation (10th)",
+            school: "S S Inter College",
+            board: "UP Board",
+            year: "2020",
+            score: "72%",
+          },
+        ].map((edu) => (
+          <div key={edu.level} className="p-6 rounded-xl bg-card border border-border hover:border-primary/40 transition-colors">
+            <p className="text-xs font-mono text-primary mb-2">{edu.year}</p>
+            <h3 className="font-semibold mb-1">{edu.level}</h3>
+            <p className="text-sm text-muted-foreground">{edu.school}</p>
+            <p className="text-sm text-muted-foreground">{edu.board} • <span className="text-primary font-semibold">{edu.score}</span></p>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
