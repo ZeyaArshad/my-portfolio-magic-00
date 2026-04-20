@@ -12,7 +12,7 @@ const skills = [
 const AboutSection = () => (
   <section id="about" className="py-24">
     <div className="container">
-      <SectionHeading title="About Me" subtitle="A snapshot of my skills and what drives me." />
+      <SectionHeading title="Skills" subtitle="A snapshot of my skills and what drives me." />
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {skills.map((s, i) => (
           <motion.div
