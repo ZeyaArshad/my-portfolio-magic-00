@@ -46,7 +46,7 @@ const AboutSection = () => (
           },
           {
             level: "Matriculation (10th)",
-            school: "S S Inter College",
+            school: "Mother's International Academy",
             board: "UP Board",
             year: "2020",
             score: "72%",
