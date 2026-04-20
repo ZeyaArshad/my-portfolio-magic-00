@@ -47,9 +47,9 @@ const AboutSection = () => (
           {
             level: "Matriculation (10th)",
             school: "Mother's International Academy",
-            board: "UP Board",
+            board: "CBSE Board",
             year: "2020",
-            score: "72%",
+            score: "84%",
           },
         ].map((edu) => (
           <div key={edu.level} className="p-6 rounded-xl bg-card border border-border hover:border-primary/40 transition-colors">
