@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
-import { Briefcase, GraduationCap, Award } from "lucide-react";
+import { Briefcase, Award } from "lucide-react";
 
 const timeline = [
   {
@@ -24,13 +24,6 @@ const timeline = [
       "Built mini-projects applying Java principles",
     ],
   },
-  {
-    icon: GraduationCap,
-    title: "B.Tech in Computer Science",
-    org: "Noida Institute of Engineering and Technology",
-    date: "Nov 2022 – Aug 2026",
-    points: ["CGPA: 7.19"],
-  },
 ];
 
 const certs = [
@@ -42,7 +35,7 @@ const certs = [
 const ExperienceSection = () => (
   <section id="experience" className="py-24">
     <div className="container">
-      <SectionHeading title="Experience & Education" />
+      <SectionHeading title="Experience" subtitle="Internships and professional work." />
 
       <div className="max-w-2xl mx-auto space-y-8 mb-20">
         {timeline.map((item, i) => (
