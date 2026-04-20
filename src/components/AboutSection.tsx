@@ -36,10 +36,6 @@ const AboutSection = () => (
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      >
         {[
           { num: "7.19", label: "CGPA" },
           { num: "2+", label: "Internships" },
