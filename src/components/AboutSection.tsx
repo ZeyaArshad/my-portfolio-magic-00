@@ -39,10 +39,10 @@ const AboutSection = () => (
         {[
           {
             level: "Intermediate (12th)",
-            school: "S S Inter College",
-            board: "UP Board",
+            school: "Z.A Islamia PG College",
+            board: "BSEB",
             year: "2022",
-            score: "65%",
+            score: "67%",
           },
           {
             level: "Matriculation (10th)",
