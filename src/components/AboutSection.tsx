@@ -41,7 +41,7 @@ const AboutSection = () => (
             level: "Intermediate (12th)",
             school: "Z.A Islamia PG College",
             board: "BSEB",
-            year: "2022",
+            year: "2020-2021",
             score: "67%",
           },
           {
