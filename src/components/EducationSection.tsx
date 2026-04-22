@@ -4,11 +4,11 @@ import { GraduationCap } from "lucide-react";
 
 const education = [
   {
-    level: "B.Tech in Computer Science",
+    level: "B.Tech in Computer Science (IOT)",
     school: "Noida Institute of Engineering and Technology",
     board: "AKTU",
     year: "Nov 2022 – Aug 2026",
-    score: "CGPA: 7.19",
+    score: "CGPA: 7.25",
   },
   {
     level: "Intermediate (12th)",
