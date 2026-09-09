@@ -33,7 +33,7 @@ const HeroSection = () => {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors">
               <ExternalLink size={20} />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors">
+            <a href="https://github.com/ZeyaArshad" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors">
               <ExternalLink size={20} />
             </a>
           </div>
