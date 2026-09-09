@@ -8,7 +8,7 @@ const education = [
     school: "Noida Institute of Engineering and Technology",
     board: "AKTU",
     year: "Nov 2022 – Aug 2026",
-    score: "CGPA: 7.25",
+    score: "CGPA: 7.42",
   },
   {
     level: "Intermediate (12th)",

@@ -37,7 +37,7 @@ const AboutSection = () => (
         viewport={{ once: true }}
       >
         {[
-          { num: "7.25", label: "CGPA" },
+          { num: "7.42", label: "CGPA" },
           { num: "2+", label: "Internships" },
           { num: "3+", label: "Projects" },
           { num: "3+", label: "Certifications" },
