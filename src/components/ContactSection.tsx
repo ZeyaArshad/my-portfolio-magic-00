@@ -16,7 +16,7 @@ const ContactSection = () => (
           { icon: Mail, label: "zeyaarshad786@gmail.com", href: "mailto:zeyaarshad786@gmail.com" },
           { icon: Phone, label: "+91 7643897190", href: "tel:+917643897190" },
           { icon: ExternalLink, label: "LinkedIn", href: "https://linkedin.com" },
-          { icon: ExternalLink, label: "GitHub", href: "https://github.com" },
+          { icon: ExternalLink, label: "GitHub", href: "https://github.com/ZeyaArshad" },
         ].map((c) => (
           <a
             key={c.label}
